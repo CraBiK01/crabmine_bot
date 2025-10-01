@@ -18,8 +18,8 @@ logging.basicConfig(
 logging.getLogger("httpx").setLevel(logging.WARNING)
 
 # --- КОНФИГУРАЦИЯ ---
-TOKEN = os.environ.get("8481648253:AAHzPpm730ia2puCdG5dIgPLJkGLy5D-OKg")
-ADMIN_CHAT_ID = os.environ.get("-1003108486685")
+TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
+ADMIN_CHAT_ID = os.environ.get("ADMIN_CHAT_ID")
 CREATOR_USERNAME = os.environ.get("CREATOR_USERNAME", "@MrCrabYT")
 
 # --- СОСТОЯНИЯ ДИАЛОГА (для ConversationHandler) ---
